@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/gpt', function () {
+    return view('gptchat');
+});
+
+
+
+Route::get('/', function () {
+    return view('welcome');
+});
